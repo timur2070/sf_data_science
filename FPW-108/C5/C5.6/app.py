@@ -35,4 +35,5 @@ def converter(message):
         text = f'The current rate:\n{amount} {base} is equal {result} {quote}'
         bot.send_message(message.chat.id, text)
 
+
 bot.polling()

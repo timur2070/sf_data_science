@@ -2,7 +2,6 @@ import requests
 import json
 from config import API_KEY, KEYS
 
-
 class ConversionError(Exception):
     pass
 
